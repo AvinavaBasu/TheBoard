@@ -1,0 +1,25 @@
+{
+  "name": "the-board",
+  "version": "0.1.0",
+  "description": "A message board based on sticky notes.",
+  "main": "server.js",
+  "author": {
+    "name": "Avinava Basu",
+    "email": "avinava89@gmail.com"
+  },
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "ejs-locals": "^1.0.2",
+    "express": "^4.17.0",
+    "grunt-nodemon": "^0.4.2",
+    "gulp-jade": "^1.1.0",
+    "mongodb": "^3.2.7",
+    "mssql": "^5.1.0",
+    "node-sqlserver-unofficial": "^1.4.0",
+    "underscore": "^1.9.1",
+    "vash": "^0.12.6"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.4"
+  }
+}

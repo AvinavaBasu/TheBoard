@@ -1,0 +1,16 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+   <title>@model.title</title>
+   <link href="/css/site.css" rel="stylesheet"/>
+</head>
+<body>
+    <div>@model.title</div>
+	@if(model.error){
+	<p class="text-error">Error occured :@model.error</p>
+	}
+	@model.categories.forEach(function(category){
+	<div><a href="#">@category.employee_name</a> has a salary of @category.employee_salary </div>
+	})
+</body>
+</html>
