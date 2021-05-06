@@ -16,7 +16,7 @@
     "mongodb": "^3.2.7",
     "mssql": "^5.1.0",
     "node-sqlserver-unofficial": "^1.4.0",
-    "underscore": "^1.9.1",
+    "underscore": "^1.12.1",
     "vash": "^0.12.6"
   },
   "devDependencies": {
